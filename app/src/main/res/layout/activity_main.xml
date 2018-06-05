@@ -10,16 +10,21 @@
 
 
     <Button
-        android:id="@+id/b_main"
+
+
+        android:id="@+id/b_start"
         android:layout_width="384dp"
-        android:layout_height="328dp"
-        android:layout_marginTop="15dp"
-        android:background="@color/red"
-        android:text=""
-        android:textColor="@color/white"
-        android:textSize="70dp"
+        android:layout_height="93dp"
+        android:layout_marginBottom="16dp"
+        android:text="Start"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_info" />
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
 
     <TextView
         android:id="@+id/tv_info"
@@ -40,4 +45,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-</android.support.constraint.ConstraintLayout>
+  
+  </android.support.constraint.ConstraintLayout>

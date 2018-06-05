@@ -10,7 +10,7 @@
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/b_start"
         android:layout_width="157dp"
         android:layout_height="93dp"
         android:layout_marginBottom="45dp"
@@ -24,9 +24,9 @@
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/b_main"
         android:layout_width="270dp"
-        android:layout_height="238dp"
+        android:layout_height="260dp"
         android:layout_marginBottom="47dp"
         android:layout_marginStart="57dp"
         android:layout_marginTop="88dp"

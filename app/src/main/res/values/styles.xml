@@ -8,4 +8,15 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="basic_button">
+        <item name="android:layout_width">207dp</item>
+        <item name="android:layout_height">76dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
 </resources>

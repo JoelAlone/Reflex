@@ -10,19 +10,6 @@
 
 
     <Button
-        android:id="@+id/b_start"
-        android:layout_width="384dp"
-        android:layout_height="93dp"
-        android:layout_marginBottom="16dp"
-        android:text="Start"
-        android:textSize="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/main" />
-
-    <Button
         android:id="@+id/b_main"
         android:layout_width="384dp"
         android:layout_height="328dp"
@@ -45,4 +32,12 @@
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b_start"
+        style="@style/basic_button"
+        android:text="Start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>

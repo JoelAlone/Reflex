@@ -16,4 +16,12 @@
         android:text="Start"
         tools:layout_editor_absoluteX="114dp"
         tools:layout_editor_absoluteY="373dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="270dp"
+        android:layout_height="238dp"
+        android:text="Click"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="88dp" />
 </android.support.constraint.ConstraintLayout>

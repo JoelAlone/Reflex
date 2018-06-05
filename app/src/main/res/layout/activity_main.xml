@@ -10,6 +10,8 @@
 
 
     <Button
+
+
         android:id="@+id/b_start"
         android:layout_width="384dp"
         android:layout_height="93dp"
@@ -23,16 +25,6 @@
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <Button
-        android:id="@+id/b_main"
-        android:layout_width="384dp"
-        android:layout_height="328dp"
-        android:layout_marginTop="15dp"
-        android:background="@color/red"
-        android:text=""
-        android:textColor="@color/white"
-        android:textSize="70dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_info" />
 
     <TextView
         android:id="@+id/tv_info"
@@ -45,4 +37,13 @@
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-</android.support.constraint.ConstraintLayout>
+
+    <Button
+        android:id="@+id/b_start"
+        style="@style/basic_button"
+        android:text="Start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+  
+  </android.support.constraint.ConstraintLayout>

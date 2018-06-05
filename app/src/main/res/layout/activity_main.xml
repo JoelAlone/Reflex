@@ -13,15 +13,25 @@
         android:id="@+id/button"
         android:layout_width="157dp"
         android:layout_height="93dp"
+        android:layout_marginBottom="45dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="47dp"
         android:text="Start"
-        tools:layout_editor_absoluteX="114dp"
-        tools:layout_editor_absoluteY="373dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="270dp"
         android:layout_height="238dp"
+        android:layout_marginBottom="47dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="88dp"
         android:text="Click"
-        tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="88dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>

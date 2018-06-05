@@ -3,10 +3,15 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="colorNav">#ccccff</color>
 
     <color name="red">#ef0b44</color>
     <color name="blue">#4c52ff</color>
     <color name="green">#26f234</color>
     <color name="white">#FFFFFF</color>
+    <color name="light_green">#00ff00</color>
+    <color name="pink">#ff00ff</color>
+
+
 
 </resources>

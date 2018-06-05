@@ -30,7 +30,10 @@
         android:layout_marginBottom="47dp"
         android:layout_marginStart="57dp"
         android:layout_marginTop="88dp"
-        android:text="Click"
+        android:text=""
+        android:textSize="70dp"
+        android:textColor="@color/white"
+        android:background="@color/blue"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
